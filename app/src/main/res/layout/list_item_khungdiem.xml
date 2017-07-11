@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/border"
+    android:padding="10dip"
+    android:weightSum="1">
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dip">
+
+
+
+
+        <TextView
+            android:id="@+id/tvMuc"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:text="I"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dip">
+
+
+
+
+        <TextView
+            android:id="@+id/tvnoidungdiem"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:text="Đánh giá về tinh thần trách nhiệm trong học tập"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvmaxdiem"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Tối đa 30 điểm"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bthea.htttsvtdt">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/laucher"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme" >
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:label="Login"
+            android:theme="@style/AppTheme.Dark">
+
+        </activity>
+        <activity
+            android:name=".Activity.MenuActivity"
+            android:label="Hệ thống thông tin"
+            android:theme="@style/MyMaterialTheme.Base">
+
+        </activity>
+        <activity
+            android:name=".Activity.TkbActivity"
+            android:label="Thời Khóa Biểu"
+            android:parentActivityName=".Activity.MenuActivity">
+
+        </activity>
+        <activity
+            android:name=".Activity.KqhtActivity"
+            android:label="Kết quả học tập"
+            android:parentActivityName=".Activity.MenuActivity">
+
+        </activity>
+        <activity
+            android:name=".Activity.EmailActivity"
+            android:label="Email"
+            android:parentActivityName=".Activity.MenuActivity">
+
+        </activity>
+        <activity
+            android:name=".Activity.HdqtActivity"
+            android:label="Hoặt động"
+            android:parentActivityName=".Activity.MenuActivity">
+
+        </activity>
+        <activity
+            android:name=".Activity.tkbdayActivity"
+            android:label="Thứ 2"
+            android:parentActivityName=".Activity.TkbActivity">
+        </activity>
+        <activity
+            android:name=".Activity.HoatdongActivity"
+            android:label="Mục"
+            android:parentActivityName=".Activity.HdqtActivity">
+        </activity>
+        <activity
+            android:name=".Activity.DonViActivity"
+            android:label="Đơn vị"
+            android:theme="@style/MyMaterialTheme.Base"
+            android:parentActivityName=".Activity.MenuActivity">
+
+        </activity>
+        <activity
+            android:name=".Activity.NewsActivity"
+            android:label="Thông Báo"
+            android:theme="@style/MyMaterialTheme.Base"
+            android:parentActivityName=".Activity.DonViActivity">
+
+
+        </activity>
+        <activity
+            android:name=".Activity.ThongBaoActivity"
+            android:label="Thông Báo"
+            android:theme="@style/MyMaterialTheme.Base">
+
+
+        </activity>
+        <activity
+            android:name=".Activity.SplashScreen"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
